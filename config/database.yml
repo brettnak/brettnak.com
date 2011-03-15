@@ -17,8 +17,8 @@ test:
 
 production:
   adapter: mysql
-  username: savoyswing
-  password: ssc_pass
-  database: savoyswing_rails
+  username: blog
+  password: bl0gp455
+  database: blog
   host: localhost
 
