@@ -24,7 +24,8 @@ nav a { font-weight: bold !important; color: #eeeeee !important; font-size: 14px
 p { margin: 20px 0px; letter-spacing: 2px; font-weight: lighter; }
 p a:hover { padding-bottom: 1px; }
 
-h1 { font-weight: lighter; background-color: black; font-size: 65px; text-align: center; overflow: hidden; display: block; height: 80px; text-shadow: 0 0px 4px #333333; margin: -30px -32px 30px -32px; color: #eeeeee; }
+.name { position: relative; margin-top: -74px !important; margin-left: -5px !important; margin-right: 0px !important; display: block; width: 400px; }
+.name h1 { width: 400px; display: inline-block; height: 50px; position: relative; z-index: 9999; font-weight: lighter; font-size: 34px; line-height: 50px; text-align: left; color: white; }
 
 .columns { display: block; width: 100%; display: table-row; margin-bottom: 10px; }
 .columns:first-child { padding-left: 0px; }

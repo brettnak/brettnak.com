@@ -46,7 +46,6 @@ nav {
     display: block;
     width: $page_width;
     margin: auto;
-
     .nav-list {
         display: block;
         text-align: right;
@@ -151,17 +150,27 @@ p {
 }
 
 // Page titles.
-h1 {
-    font-weight: lighter;
-    background-color: $black;
-    font-size: 65px;
-    text-align: center;
-    overflow: hidden;
+.name {
+    position: relative;
+    margin: {
+        top: -74px !important;
+        left: -5px !important;
+        right: 0px !important;
+    }
     display: block;
-    height: 80px;
-    text-shadow: 0 0px 4px $gray_dark;
-    margin: -30px -32px 30px -32px;
-    color: $gray_light;
+    width: 400px;
+    h1 {
+        width: 400px;
+        display: inline-block;
+        height: 50px;
+        position: relative;
+        z-index: 9999;
+        font-weight: lighter;
+        font-size: 34px;
+        line-height: 50px;
+        text-align: left;
+        color: $white;
+    }
 }
 
 .columns {
