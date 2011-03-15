@@ -1,0 +1,7 @@
+- unless flash[:error].blank? && flash[:notice].blank? && flash[:warning].blank?
+  %section.flashes
+    - unless flash[:error].blank?
+      .flash.flash-error
+        %span
+          != flash[:error]
+        

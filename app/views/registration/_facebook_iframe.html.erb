@@ -1,0 +1,11 @@
+<iframe src="http://www.facebook.com/plugins/registration.php?
+             client_id=<%= Facebook::APP_ID %>&
+             redirect_uri=<%= URI.escape( "http://www.savoyswing.org" + complete_registration_path( @dance_class.id ) ) %>&
+             fields=<%= Facebook.fields_json %>"
+        scrolling="auto"
+        frameborder="no"
+        style="border:none"
+        allowTransparency="true"
+        width="100%"
+        height="600" >
+</iframe>

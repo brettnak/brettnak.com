@@ -1,0 +1,53 @@
+= render :partial => 'layouts/flashes'
+
+- unless @registration_error
+  %section.registration-confirmation
+    - if @registration.groupon_code =~ /yes/i
+      %h2
+        Your registration is complete but please
+        %strong
+          bring your groupon print-out
+        and present it at the door.
+    - else
+      %h2
+        Your registration is complete, however, you still need to
+        %strong
+          pay $#{@registration.price.to_i} at the door.
+
+    %p
+      You registered for the
+      %strong
+        = @dance_class.description
+
+    %dl
+      %dt
+        First Name
+      %dd
+        = @registration.first_name
+      %dt
+        Last Name
+      %dd
+        = @registration.last_name
+      %dt
+        Email
+      %dd
+        = @registration.email
+      %dt
+        Lead or Follow
+      %dd
+        = @registration.role.humanize
+      - if @registration.groupon_code =~ /yes/i
+        %dt
+          Groupon
+        %dd
+          %strong
+            You'll need to present your groupon printout at the door.
+      - unless @registration.groupon_code =~ /yes/i      
+        %dt
+          Membership Status
+        %dd
+          - if @registration.member
+            If you have a membership card, please bring it with you.  If not, we'll have a list at the door.
+          - else
+            Not a member
+

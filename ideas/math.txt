@@ -1,0 +1,33 @@
+
+http://www.ted.com/talks/conrad_wolfram_teaching_kids_real_math_with_computers.html
+
+* What is Applied Mathematics?
+  - A question ( well posed, think Mr. Miyagi )
+  - A transformation ( Real world -> Math problem )
+    - Simplify, Describe
+  - Computation
+    - The 'chore'
+  - Math problem -> Results in the real world
+
+* Math is not calculations!
+
+* Edge cases
+  - Estimations
+  - Understanding limitations of calculations
+
+* Paper dumbs math down!
+  - Touchy.
+  - Computers are better at keeping track of the 'hair'.
+  - We've dumbed down problems for paper.
+  - Programming ( not paper ) to check your understanding.
+
+* Examples
+  - Concepts of calculus are easy.
+  - Calculations of calculus are hard.
+
+* Exams are fawed.  No computers.
+  - What is the best life insurance.
+
+* The software industry is nowhere near this!
+  - How do we get there?
+  - The country who first grasps this will leap frog.

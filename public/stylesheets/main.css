@@ -1,0 +1,43 @@
+body { font-weight: lighter; font-size: 14px; line-height: 20px; word-spacing: 0.1em; letter-spacing: 0.02em; background-color: white; }
+
+a { display: inline-block; color: #579cee !important; border-bottom: 1px solid #ffcd7e; margin-bottom: -1px; text-decoration: none; }
+a:visited { color: #333333; }
+a:hover { color: #ffbb4f; margin: -2px -5px; padding: 2px 5px; background: rgba(0, 0, 0, 0.15); }
+
+header { display: block; position: fixed; background-color: black; box-shadow: 0 2px 3px black; height: 50px; width: 100%; z-index: 999; }
+
+nav { display: block; width: 950px; margin: auto; }
+nav .nav-list { display: block; text-align: right; margin: auto; position: relative; }
+nav li { display: inline-block; padding: 10px 10px 10px 10px; }
+nav a { font-weight: bold !important; color: #eeeeee !important; font-size: 14px; vertical-align: middle; border: 0 none !important; }
+
+#main { min-height: 500px; width: 950px; background-color: white; margin-left: auto; margin-right: auto; margin-top: 0px; margin-bottom: 30px; }
+#main:first-child { margin-top: 0px important; padding-top: 75px; }
+#main section { padding-left: 30px; padding-right: 30px; padding-bottom: 20px; background-color: white; margin: 0px auto; position: relative; }
+#main section h2 { font-weight: lighter; position: relative; z-index: 9999; display: inline-block; height: 30px; line-height: 30px; text-align: center; font-size: 24px; padding-right: 30px; padding-top: 10px; }
+#main section h2 span { vertical-align: middle; }
+#main .separator { background-color: #333333; height: 5px; }
+
+.intro { display: block; text-align: left; margin-top: 5px; text-align: justify; font-weight: lighter; font-size: 16px; line-height: 22px; }
+.intro strong { font-weight: normal; color: #ffa414; }
+
+p { margin: 20px 0px; letter-spacing: 2px; font-weight: lighter; }
+p a:hover { padding-bottom: 1px; }
+
+h1 { font-weight: lighter; background-color: black; font-size: 65px; text-align: center; overflow: hidden; display: block; height: 80px; text-shadow: 0 0px 4px #333333; margin: -30px -32px 30px -32px; color: #eeeeee; }
+
+.columns { display: block; width: 100%; display: table-row; margin-bottom: 10px; }
+.columns:first-child { padding-left: 0px; }
+.columns .column { display: table-cell; line-height: 30px; vertical-align: baseline; }
+.columns .column p { margin-bottom: 30px; text-align: justify; }
+.columns .column.column-1-2 { width: 60%; }
+
+section li { list-style-type: bullet; font-weight: lighter; margin: 10px; }
+section li a { display: inline-block; }
+section li a:hover { margin-bottom: -4px; }
+section:last-child { padding-right: 0px; }
+
+footer { font-size: 12px !important; padding: 30px; text-align: justify; }
+footer .column { line-height: 16px !important; font-size: 12px !important; width: 50% !important; padding: 20px !important; }
+
+p.addition { margin-top: -10px; margin-bottom: 30px; line-height: 30px; font-weight: lighter; }

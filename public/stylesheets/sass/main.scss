@@ -1,0 +1,236 @@
+@import "themes/standard";
+
+$page_width : 950px;
+
+body { 
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 20px;
+    word-spacing: 0.1em;
+    letter-spacing: 0.02em;
+    // background: url("/images/background.jpg") repeat-x fixed 0 0 $gray_dark;
+    background-color: $white;
+}
+
+a {
+    display: inline-block;
+    color: $primary_4 !important;
+    border-bottom: 1px solid $complementary_5;
+    margin-bottom: -1px;
+    text-decoration: none;
+
+    &:visited {
+        color: $gray_dark;
+    }
+
+    &:hover {
+        color: $complementary_4;
+        margin: -2px -5px;
+        padding: 2px 5px;
+        background: rgba(0, 0, 0, 0.15);
+    }
+}
+
+$header_height: 50px;
+header {
+    display: block;
+    position: fixed;
+    background-color: $black;
+    box-shadow: 0 2px 3px $black;
+    height: $header_height;
+    width: 100%;
+    z-index: 999;
+}
+
+nav {
+    display: block;
+    width: $page_width;
+    margin: auto;
+
+    .nav-list {
+        display: block;
+        text-align: right;
+        margin: auto;
+        position: relative;
+    }
+
+    li {
+        display: inline-block;
+        padding: 10px 10px 10px 10px;
+    }
+
+    a {
+        font-weight: bold !important;
+        color: $gray_light !important;
+        font-size: 14px;
+        vertical-align: middle;
+        border: 0 none !important;
+    }
+}
+
+#main {
+    min-height: 500px;
+    width: $page_width;
+    background-color: $white;
+    margin: {
+        left: auto;
+        right: auto;
+        top: 0px;
+        bottom: 30px;
+    }
+
+    &:first-child {
+        margin-top: 0px important;
+        padding-top: 75px; 
+    }
+
+    section {
+        padding: {
+            left: 30px;
+            right: 30px;
+            bottom: 20px;
+        }
+
+        background-color: $white;
+        margin: 0px auto;
+        position: relative;
+        
+        h2 {
+            font-weight: lighter;
+            // box-shadow: -2px 2px 3px $primary_1;
+            position:relative;
+            z-index: 9999;
+            display: inline-block;
+            // background-color: $primary_1;
+            height: $header-height - 10px - 10px;
+            line-height: $header-height - 10px - 10px;
+            text-align: center;
+            font-size: 24px;
+            // color: $gray_light;
+            padding: {
+                right: 30px;
+                top: 10px;
+            }
+
+            span {
+                vertical-align: middle;
+            }
+        }
+    }
+
+    .separator {
+        background-color: $primary_1;
+        height: 5px;
+    }
+}
+
+// Text Styles
+.intro {
+    display: block;
+    text-align: left;
+    margin-top: 5px;
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 22px;
+    strong {
+        font-weight: normal;
+        color: $complementary_1;
+    }
+}
+
+p {
+    margin: 20px 0px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    a {
+        &:hover {
+            padding-bottom: 1px;
+        }
+    }
+}
+
+// Page titles.
+h1 {
+    font-weight: lighter;
+    background-color: $black;
+    font-size: 65px;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    height: 80px;
+    text-shadow: 0 0px 4px $gray_dark;
+    margin: -30px -32px 30px -32px;
+    color: $gray_light;
+}
+
+.columns {
+    display: block;
+    width: 100%;
+    display: table-row;
+    margin-bottom: 10px;
+
+    &:first-child {
+        padding-left: 0px;
+    }
+
+    .column {
+        display: table-cell;
+        line-height: 30px;
+        vertical-align: baseline;
+        p {
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+
+        &.column-1-2 {
+            width: 60%;
+        }
+
+        &.column-2-2 {
+        }
+    }
+}
+
+section {
+
+    ul {
+    }
+
+    li {
+        list-style-type: bullet;
+        font-weight: lighter;
+        margin: 10px;
+        a {
+            display: inline-block;
+            &:hover {
+                margin-bottom: -4px;
+            }
+        }
+    }
+
+    &:last-child {
+        padding-right: 0px;
+    }
+}
+
+$footer-font-size : 12px;
+footer {
+    font-size: $footer-font-size !important;
+    padding: 30px;
+    text-align: justify;
+
+    .column {
+        line-height: 16px !important;
+        font-size: $footer-font-size !important;
+        width: 50% !important;
+        padding: 20px !important;
+    }
+}
+
+p.addition {
+    margin-top: -10px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-weight: lighter;
+}
