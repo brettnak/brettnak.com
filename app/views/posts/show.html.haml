@@ -1,0 +1,7 @@
+%section
+  %h2
+    != @post.title
+  != @post.html_content
+  - if current_user.andand.admin?
+    %p= link_to "edit ->", edit_post_path( @post )
+    

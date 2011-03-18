@@ -1,0 +1,18 @@
+- form_for @post do |f|
+  %ul
+    %li
+      %label
+        = f.label :title
+      .input-wrapper
+        = f.text_field :title
+
+    %li
+      %label
+        = f.label :markdown_content, "Markdown Content"
+      .input-wrapper
+        = f.text_area :markdown_content
+
+    %li
+      %label
+      .input-wrapper
+        = f.submit ( @post.id.nil? ? "Create" : "Save" )

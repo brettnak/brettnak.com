@@ -243,3 +243,27 @@ p.addition {
     line-height: 30px;
     font-weight: lighter;
 }
+
+form {
+    ul {
+        margin: 0px;
+    }
+
+    li {
+        list-style-type: none;
+        margin: 20px 0px 20px 0px;
+    }
+
+    input[type=text],textarea {
+        width: 100%;
+        padding: 8px;
+    }
+
+    input[type=submit] {
+        padding: 8px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        vertical-align: middle;
+    }
+}

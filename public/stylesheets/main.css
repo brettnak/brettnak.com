@@ -42,3 +42,8 @@ footer { font-size: 12px !important; padding: 30px; text-align: justify; }
 footer .column { line-height: 16px !important; font-size: 12px !important; width: 50% !important; padding: 20px !important; }
 
 p.addition { margin-top: -10px; margin-bottom: 30px; line-height: 30px; font-weight: lighter; }
+
+form ul { margin: 0px; }
+form li { list-style-type: none; margin: 20px 0px 20px 0px; }
+form input[type=text], form textarea { width: 100%; padding: 8px; }
+form input[type=submit] { padding: 8px; height: 40px; line-height: 40px; font-size: 16px; vertical-align: middle; }

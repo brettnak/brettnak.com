@@ -1,10 +1,7 @@
 %ul.nav-list
-  /
+  - if current_user.andand.admin?
     %li
-      = link_to "Nav 1", "/#nav1"
+      = link_to "New Post", new_post_path
     %li
-      = link_to "Nav 2", "/#nav2"
-    %li
-      = link_to "Nav 3", "/#nav3"
-    %li
-      = link_to "Etsy", "/#etc"
+      = link_to "Logout", logout_path
+

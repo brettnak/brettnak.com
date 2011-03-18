@@ -7,105 +7,135 @@
     I'm going to kick things off with a little education.
     There have been varying reports in the media about what's going on with the nuclear reactors in Japan, specifically the Dai-ichi reactors.
     I'm going to attempt to take you through, slowly, the workings of a nuclear reactor and what's wrong with the ones in Japan.
-    This will be at least two articles.  The first is up now so you can get a sense of what's going on and
-    = link_to( "how a nuclear reaction works.", "/#nuclear-reaction" )
+    This will be a four article series.  The first is up now so you can get a little 
+    = link_to( "background information.", "/#background-info" )
+
+%section#background-info
+  %h2
+    Background Information: Inside the Atom
+  %p
+    Let's review some chemistry.  It won't hurt a bit, I promise.  Think back to high school chemistry, we're going to talk about the building blocks of atoms.  There are three and they are 
+    %strong
+      protons, neutrons, and electrons.
+    We're going to forget about electrons for now.  I know your chemistry teacher told you that chemistry is all about electrons, but this is nuclear physics, baby.  What distinguishes one element from another, Hydrogen from Oxygen, for example, is how many
+    %strong
+      protons
+    are in the nucleus.  Hydrogen has one proton, carbon has six and oxygen has eight.  Protons also have mass, we don't measure the mass of protons in terms of grams because it would be too hard to understand a number that small.  Instead, we say that a proton's mass is 1 atomic mass unit or AMU.  Awesome, that makes sense but if you remember your chemistry, you'll see the a problem.
+  %p
+    I just got through telling you that Hydrogen has one proton, carbon, six, and oxygen, eight protons.  The average Hydrogen atom has a mass of 1 atomic mass unit but your average carbon atom has a mass of 12, and oxygen, 16.
+  %p
+    %strong
+      Neutrons
+    to the rescue.  Your average Hydrogen atom has no neutrons in it's nucleus, just the one proton.  Carbon has 6 neutrons. Each neutron has a mass of 6 atomic mass units and 6 + 6 is commonly 12.  So, our six missing atomic mass units were neutrons!  For oxygen, it's the same story. If oxygen has 8 protons but has a mass of 16 atomic mass units, then there are 8 neutrons also in the nucleus.
+  %p
+    So, now you know that protons and neutrons live together in the nucleus of an atom and that both protons and neutrons have a mass of one atomic mass unit.  Now, lets add in a sense of scale.  An atom is really, really tiny but the nucleus of an atom is way smaller than that.  Let's pretend that the nucleus of an atom is about the size of a basketball.  This would make the the size of the atom about 40 miles accross!  That extra 40 miles is called the electron cloud, but like I said before, we don't care about it.  Just pretend it's empty space where other atoms can't really go.
+  %p
+    If protons and neutrons are going to live together inside the nucleus, something must be holding them together.  There's a force that acts over very, very short distances - only when protons and neutrons are touching do we even notice that it exists.  We call this force the
+    %strong
+      strong nuclear force.
+    Because there's a force bonding these protons and neutrons together, we can say that this force is storing energy in the form of potential energy.  There's a name for the potential energy stored in these bonds - 
+    %strong
+      binding energy.
+  %p
+    That's enough background.  Let's talk about uranium, specifically, we're going to talk about
+    %strong
+      enriched uranium.
+    Uranium has 92 protons, but usually has a mass of 238 AMU.  Enriched uranium, on the other hand, has 235 AMU.  The difference here is three neutrons but those three neutrons make a big difference.  Uranium-238 ( U-238 ) is a pretty stable beast which makes it to use it to sustain a nuclear reaction.  U-235 on the other hand is much less stable so it's easier start and sustain a nuclear reaction.
 
 %section#nuclear-reaction
   %h2
-    How a Nuclear Chain Reaction Works
+    How Nuclear Fission Works
   %p
-    We're going to start simple.  There are three main types of nuclear reactions: radioactive decay, nuclear fusion, and nuclear fission.  We're going to focus on nuclear fission, but remember that radioactive decay exists.  You can forget about fusion because we really don't know how to use it in a way that is useful and doesn't
-    = link_to( "explode in a big way", "http://en.wikipedia.org/wiki/Teller-Ulam_design", :target => "_blank" ) + "."
-  %p
-    Nuclear fission isn't that complicated.  Picture this: there's a ping pong ball and a basketball.  The ping pong ball goes really fast and hits the basketball.  When it hits the basketball, the basketball splits into four parts.  Two ping pong balls and two baseballs.  In atomic terms:
-  %ul
-    %li
-      the
+    Comming Soon.
+  /
+    %ul
+      %li
+        the
+        %strong
+          ping pong balls
+        are
+        %strong
+          neutrons.
+      %li
+        the
+        %strong
+          basket balls
+        are
+        %strong
+          Uranium-235
+        ( that means it's atomic weight is 235 ).
+      %li
+        the
+        %strong
+          baseballs
+        are
+        %strong
+          fission products.
+        %br
+        The most common fission products are
+        = link_to "Caesium-137", "http://en.wikipedia.org/wiki/Caesium-137", :target => "_blank"
+        ,
+        = link_to "Tin-121", "http://en.wikipedia.org/wiki/Tin-121m", :target => "_blank"
+        ,
+        = link_to "Strontium-90", "http://en.wikipedia.org/wiki/Strontium-90", :target => "_blank"
+        ,
+        = link_to "Iodine-129", "http://en.wikipedia.org/wiki/Iodine-129", :target => "_blank"
+        , and
+        = link_to( "Caesium-135", "http://en.wikipedia.org/wiki/Caesium-135", :target => "_blank" ) + '.'
+   
+    %p
+      You don't need to remember that list of products, but you should remember that they are classified in two groups.
       %strong
-        ping pong balls
-      are
+        long lived isotopes
+      which remain radioactive for a long time - hundreds of years - and
       %strong
-        neutrons.
-    %li
-      the
+        short lived isotopes
+      which remain radioactive for a shorter time - about 40 years.  Needless to say, we don't want this stuff to escape into the environment.
+    %p
+      Back to the reaction.  Imagine that two baseballs and two ping pong balls are inside each basketball.  Also, imagine that the shell of the basketball is actually holding these four balls together.  Since there is force exerted on these baseballs and ping pong balls, we can say that the force bonding them together contains
       %strong
-        basket balls
-      are
+        potential energy.
+      In nuclear terms, this force is called the
       %strong
-        Uranium-235
-      ( that means it's atomic weight is 235 ).
-    %li
-      the
+        strong nuclear force.
+    %p
+      The ping pong balls hit the basketballs, destroying the basketball and creating two ping pong balls and two baseballs.  The two new ping pong balls are moving
       %strong
-        baseballs
-      are
+        really
+      fast and the two baseballs are now moving much quicker as well.  We can now say that the
       %strong
-        fission products.
-      %br
-      The most common fission products are
-      = link_to "Caesium-137", "http://en.wikipedia.org/wiki/Caesium-137", :target => "_blank"
-      ,
-      = link_to "Tin-121", "http://en.wikipedia.org/wiki/Tin-121m", :target => "_blank"
-      ,
-      = link_to "Strontium-90", "http://en.wikipedia.org/wiki/Strontium-90", :target => "_blank"
-      ,
-      = link_to "Iodine-129", "http://en.wikipedia.org/wiki/Iodine-129", :target => "_blank"
-      , and
-      = link_to( "Caesium-135", "http://en.wikipedia.org/wiki/Caesium-135", :target => "_blank" ) + '.'
-
-  %p
-    You don't need to remember that list of products, but you should remember that they are classified in two groups.
-    %strong
-      long lived isotopes
-    which remain radioactive for a long time - hundreds of years - and
-    %strong
-      short lived isotopes
-    which remain radioactive for a shorter time - about 40 years.  Needless to say, we don't want this stuff to escape into the environment.
-  %p
-    Back to the reaction.  Imagine that two baseballs and two ping pong balls are inside each basketball.  Also, imagine that the shell of the basketball is actually holding these four balls together.  Since there is force exerted on these baseballs and ping pong balls, we can say that the force bonding them together contains
-    %strong
-      potential energy.
-    In nuclear terms, this force is called the
-    %strong
-      strong nuclear force.
-  %p
-    The ping pong balls hit the basketballs, destroying the basketball and creating two ping pong balls and two baseballs.  The two new ping pong balls are moving
-    %strong
-      really
-    fast and the two baseballs are now moving much quicker as well.  We can now say that the
-    %strong
-      potential energy
-    in the basketball has been converted into
-    %strong
-      kenetic energy.
-    When we say that an atom ( baseball or basketball in our example ) has a lot of kenetic energy, we mean that it's
-    %strong
-      really, really hot.
-  %p
-    I've said twice now that as a ping pong ball hits a basket ball, it releases two baseballs and two ping pong balls.  I've also said that the two ping pong balls are going really, really fast.  You may have guessed by now, that these two new ping pong balls are free to hit other basketballs and the process will repeat.  That is why we call it a
-    %strong
-      chain reaction.
-
-  %p
-    One more thing.  Because neclear physics is a strange beast, the ping pong balls can't be going too fast.  If they are going too fast, they essentially miss the the basketballs.  This isn't very useful so we need to do something to slow them down.  To make things move a little slower, let's put this whole illustration
-    %strong
-      under water.
-    In neclear physics terms, we're going to call the water a
-    %strong
-      neutron moderator.
-    Water is really good at slowing stuff down, and it turns out, water is pretty good at slowing down neutrons, too.  We really don't have very much control over how fast the chain reaction is occuring if we just use water so we need a little more help if we want any control.
-
-  %p
-    Immagine our illustration in a swimming pool.  There are thousands of ping pong balls, basketballs and baseballs inside the swiming pool which is also filled with water.  Also imagine that there are lots of spikes sticking up from the bottom of the pool that we can raise and lower.  These spikes are special.  They're spongy and can absorb ping pong balls.  So, if we stick all the spikes all the way up, we'll eventually absorb so many ping pong balls that there won't be enough ping pong balls left to hit other basketballs and the reaction will stop - 
-    %strong
-      eventually.
-
-  %p
-    So, water is a neutron moderator and these spikes are also neutron moderators. We can't really control how watery the water is but we can control how far we stick the spikes into the pool and therfore how much moderation we have.  In a nuclear reactor, these spikes can be made of many things but a typical material is #{link_to "Boron-10", "http://en.wikipedia.org/wiki/Boron#Enriched_boron_.28boron-10.29"}.
-
-  %p
-    "So, what the heck is the point?" You may be asking yourself.  Well, since we have a lot more kenetic energy - heat - than we had before, we can convert the heat into electricity. Typically, we'll heat up a bunch of water, let it turn into steam which can turn a turbine and generate electricity.  We'll then cool the water back down and put that water back into the reactor, letting the cycle continue.  It sounds easy but there's a lot of thought that goes into how you keep those fission products out of the environment.  Unless, of course, 
-    = link_to( "you're soviet", "http://en.wikipedia.org/wiki/Chernobyl_disaster", :target => "_blank" ) + "."
+        potential energy
+      in the basketball has been converted into
+      %strong
+        kenetic energy.
+      When we say that an atom ( baseball or basketball in our example ) has a lot of kenetic energy, we mean that it's
+      %strong
+        really, really hot.
+    %p
+      I've said twice now that as a ping pong ball hits a basket ball, it releases two baseballs and two ping pong balls.  I've also said that the two ping pong balls are going really, really fast.  You may have guessed by now, that these two new ping pong balls are free to hit other basketballs and the process will repeat.  That is why we call it a
+      %strong
+        chain reaction.
+   
+    %p
+      One more thing.  Because neclear physics is a strange beast, the ping pong balls can't be going too fast.  If they are going too fast, they essentially miss the the basketballs.  This isn't very useful so we need to do something to slow them down.  To make things move a little slower, let's put this whole illustration
+      %strong
+        under water.
+      In neclear physics terms, we're going to call the water a
+      %strong
+        neutron moderator.
+      Water is really good at slowing stuff down, and it turns out, water is pretty good at slowing down neutrons, too.  We really don't have very much control over how fast the chain reaction is occuring if we just use water so we need a little more help if we want any control.
+   
+    %p
+      Immagine our illustration in a swimming pool.  There are thousands of ping pong balls, basketballs and baseballs inside the swiming pool which is also filled with water.  Also imagine that there are lots of spikes sticking up from the bottom of the pool that we can raise and lower.  These spikes are special.  They're spongy and can absorb ping pong balls.  So, if we stick all the spikes all the way up, we'll eventually absorb so many ping pong balls that there won't be enough ping pong balls left to hit other basketballs and the reaction will stop - 
+      %strong
+        eventually.
+   
+    %p
+      So, water is a neutron moderator and these spikes are also neutron moderators. We can't really control how watery the water is but we can control how far we stick the spikes into the pool and therfore how much moderation we have.  In a nuclear reactor, these spikes can be made of many things but a typical material is #{link_to "Boron-10", "http://en.wikipedia.org/wiki/Boron#Enriched_boron_.28boron-10.29"}.
+   
+    %p
+      "So, what the heck is the point?" You may be asking yourself.  Well, since we have a lot more kenetic energy - heat - than we had before, we can convert the heat into electricity. Typically, we'll heat up a bunch of water, let it turn into steam which can turn a turbine and generate electricity.  We'll then cool the water back down and put that water back into the reactor, letting the cycle continue.  It sounds easy but there's a lot of thought that goes into how you keep those fission products out of the environment.  Unless, of course, 
+      = link_to( "you're soviet", "http://en.wikipedia.org/wiki/Chernobyl_disaster", :target => "_blank" ) + "."
   
   
 
