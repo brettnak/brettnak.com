@@ -6,4 +6,8 @@ class Post < ActiveRecord::Base
     markdown = Markdown.new( text )
     self.html_content = markdown.to_html
   end
+
+  def html_id
+    return self.title.gsub( /[^a-zA-Z0-9]/, "_" ).gsub( /__*/, "_" ).downcase
+  end
 end
