@@ -1,0 +1,22 @@
+- return if blank? @resume["experience"]
+
+%section.experience
+  %h3.section-heading.experience
+    = @resume["experience"]["title"]
+  - @resume["experience"]["entries"].each do |job|
+    .job-entry
+      .job-title
+        = job["title"]
+      .company
+        = job["company"]
+      .date-range
+        = "#{job["start"]} - #{job["end"]}"
+      .description
+        %p
+          = job["description"]
+      - unless blank? job["urls"]
+        %ul.support-urls
+          - job["urls"].each do |url|
+            %li.url
+              %a{ :href => url }
+                = url

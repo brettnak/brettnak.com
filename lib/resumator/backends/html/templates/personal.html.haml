@@ -1,0 +1,10 @@
+- return if blank? @resume["personal"]
+- personal = @resume["personal"]
+
+%section.personal
+  %h3.name.section-heading
+    = personal["name"]
+  .phone
+    = "#{personal["phone"]["area"]} - #{personal["phone"]["prefix"]} - #{personal["phone"]["postfix"]}"
+  .email
+    = "#{personal["email"]}"

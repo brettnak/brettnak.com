@@ -1,0 +1,137 @@
+# Standard Resume Yaml
+
+---
+personal:
+  name: Brett Nakashima
+  email: brettnak@gmail.com
+  phone:
+    country: 1
+    area: 425
+    prefix: 765
+    postfix: 5196
+
+experience:
+  entries:
+    -
+      company: AppStoreHQ
+      title: Software Developer
+      start: August 2009
+      end: Present
+      description:
+        AppStoreHQ has been an excellent learning experience.  I got first hand experience
+        with and setup many of our backend systems including EC2 instances, HAProxy, Nginx,
+        Unicorn, MySQL, MongoDB and Rails.  My primary responsibilities include general
+        development and maintenance of our servers and our Android applications, AppESP and
+        AppDuel.  I was also primarily responsible for our recommendations and hottest
+        algorithms used on the website and in AppESP.
+      urls:
+        - http://www.appstorehq.com
+        - http://market.android.com/details?id=com.appstorehq.android
+        - http://market.android.com/details?id=com.appstorehq.android.appduel
+    -
+      company:
+        University of Washington, International Students
+      title: Web Developer
+      start: June 2009
+      end: December 2009
+      description:
+        The International Student Services required a new website that would better serve
+        their students and staff.  This was my first major Drupal project where I wrote a
+        custom Drupal theme and built in accessibility requirements that the UW requires.
+      urls:
+        - http://iss.washington.edu
+    -
+      company:
+        University of Washington, Office of Admissions
+      title: Web Administrator
+      start: Decenber 2007
+      end: July 2009
+      description:
+        My responsibilities included content changes and feature additions to our textmate
+        CMS implemented in PHP and jQuery built on PostgreSQL.  I was responsible for adding
+        many of our development features and ensuring cross browser compatability.
+
+skills:
+  duration:
+    singular: year
+    plural: years
+  frequency:
+    singular: hour per week
+    plural: hours per week
+
+  entries:
+    -
+      title: Ruby on Rails
+      frequency: 20
+      duration: 3
+    -
+      title: Ruby
+      frequency: 20
+      duration: 3
+    -
+      title: Android
+      frequency: 15
+      duration: 1
+    -
+      title: Java
+      frequency: 10
+      duration: 5
+    -
+      title: Apache Web Server
+      frequency: 1
+      duration: 4
+    -
+      title: HAProxy
+      frequency: 1
+      duration: 1
+    -
+      title: Nginx
+      frequency: 1
+      duration: 2
+      description:
+        Nginx is used at AppStoreHQ, as well as for each of my personal projects.
+    -
+      title: Unicorn
+      frequency: 1
+      duration: 2
+    -
+      title: Unix Tools
+      frequency: 20
+      duration: 6
+    -
+      title: EC2
+      frequency: 5
+      duration: 2
+      description:
+        EC2 is used extensively at AppStoreHQ for all of our services and processing.
+
+education:
+  entries:
+    -
+      school: University of Washington
+      degree: B.S. Applied Computational Mathematical Sciences
+      graduation: June 2009
+      description: 
+        Most of my coursework focused on scientific computing and numerical analysis.  I
+        became interested in the Sage platform, an open source replacement
+        for Matlab and similar software, and began making minor contributions.
+
+hobbies:
+  entries:
+    -
+      title: Dancing
+      description:
+        I have been doing lindy hop for a number of years and tought a few classes and won a
+        couple contests in and around town. I am currently the web administrator for the
+        Savoy Swing Club and previously sat on their board of directors.
+    -
+      title: Music
+      description:
+        I am an upright bass player and played in the University of Washington orchestra
+        throughout college.  I currently play bass in a traditional jazz band playing
+        New Orleans style jazz in and around Seattle.
+
+footer:
+  entries:
+    - References available upon request.
+

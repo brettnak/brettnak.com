@@ -7,6 +7,7 @@ Blog::Application.routes.draw do
 
   match "login",  :to => "user_sessions#new",     :as => "login"
   match "logout", :to => "user_sessions#destroy", :as => "logout"
+  match "resume", :to => "resume#index",          :as => "resume"
 
   root      :to => "posts#index"
 end
